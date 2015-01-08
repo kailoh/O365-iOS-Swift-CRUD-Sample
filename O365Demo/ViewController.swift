@@ -27,7 +27,7 @@ class ViewController: UIViewController {
             if (result.accessToken == nil) {
                 println("token nil")
             } else {
-                defaults.setObject(result.accessToken, forKey: "accessTokenDefault123")
+                defaults.setObject(result.accessToken, forKey: "accessTokenDefault")
                 defaults.synchronize()
                 println("accessToken: \(result.accessToken)")
             }

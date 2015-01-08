@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D075014F1A5E2B4100B4F6D5 /* FilesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D075014E1A5E2B4100B4F6D5 /* FilesTableViewController.swift */; };
 		D0E928201A5C7E50006D6BF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9281F1A5C7E50006D6BF1 /* AppDelegate.swift */; };
 		D0E928221A5C7E50006D6BF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E928211A5C7E50006D6BF1 /* ViewController.swift */; };
 		D0E928251A5C7E50006D6BF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E928231A5C7E50006D6BF1 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		D0E9282A1A5C7E50006D6BF1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E928281A5C7E50006D6BF1 /* LaunchScreen.xib */; };
 		D0E928361A5C7E50006D6BF1 /* O365DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E928351A5C7E50006D6BF1 /* O365DemoTests.swift */; };
 		D0E928401A5C84C0006D6BF1 /* libPods-ADALiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E9283F1A5C84C0006D6BF1 /* libPods-ADALiOS.a */; };
-		D0E928451A5C9125006D6BF1 /* FilesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E928441A5C9125006D6BF1 /* FilesTableViewController.swift */; };
 		D3F6F89F171CE416F72AE370 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6975939E7279724BB1A2452 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +31,7 @@
 /* Begin PBXFileReference section */
 		7812AF2742286B71ECF32700 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8B64D76E4A79127E8FEC445B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D075014E1A5E2B4100B4F6D5 /* FilesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesTableViewController.swift; sourceTree = "<group>"; };
 		D0E9281A1A5C7E50006D6BF1 /* O365Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = O365Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E9281E1A5C7E50006D6BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0E9281F1A5C7E50006D6BF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +44,6 @@
 		D0E928351A5C7E50006D6BF1 /* O365DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O365DemoTests.swift; sourceTree = "<group>"; };
 		D0E9283F1A5C84C0006D6BF1 /* libPods-ADALiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-ADALiOS.a"; path = "Pods/build/Debug-iphoneos/libPods-ADALiOS.a"; sourceTree = "<group>"; };
 		D0E928411A5C85E2006D6BF1 /* O365Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "O365Demo-Bridging-Header.h"; sourceTree = "<group>"; };
-		D0E928441A5C9125006D6BF1 /* FilesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesTableViewController.swift; sourceTree = "<group>"; };
 		D6975939E7279724BB1A2452 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -111,11 +111,11 @@
 			children = (
 				D0E9281F1A5C7E50006D6BF1 /* AppDelegate.swift */,
 				D0E928211A5C7E50006D6BF1 /* ViewController.swift */,
+				D075014E1A5E2B4100B4F6D5 /* FilesTableViewController.swift */,
 				D0E928231A5C7E50006D6BF1 /* Main.storyboard */,
 				D0E928261A5C7E50006D6BF1 /* Images.xcassets */,
 				D0E928281A5C7E50006D6BF1 /* LaunchScreen.xib */,
 				D0E9281D1A5C7E50006D6BF1 /* Supporting Files */,
-				D0E928441A5C9125006D6BF1 /* FilesTableViewController.swift */,
 			);
 			path = O365Demo;
 			sourceTree = "<group>";
@@ -280,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0E928451A5C9125006D6BF1 /* FilesTableViewController.swift in Sources */,
+				D075014F1A5E2B4100B4F6D5 /* FilesTableViewController.swift in Sources */,
 				D0E928221A5C7E50006D6BF1 /* ViewController.swift in Sources */,
 				D0E928201A5C7E50006D6BF1 /* AppDelegate.swift in Sources */,
 			);

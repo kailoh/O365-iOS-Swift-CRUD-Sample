@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>94F1B751-8B8A-4C9F-95E4-FDFFB0605FF7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>O365Demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>83E061A9A8DD7B7C2C5604B9FB19EDAC021F8345</key>
+		<string>github.com:kailoh/o365-ios-swift-sample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>O365Demo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>83E061A9A8DD7B7C2C5604B9FB19EDAC021F8345</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:kailoh/o365-ios-swift-sample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>83E061A9A8DD7B7C2C5604B9FB19EDAC021F8345</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>83E061A9A8DD7B7C2C5604B9FB19EDAC021F8345</string>
+			<key>IDESourceControlWCCName</key>
+			<string>O365Demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
